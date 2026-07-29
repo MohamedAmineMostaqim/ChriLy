@@ -1,1 +1,68 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
 .venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# ----------------------------
+# Machine Learning
+# ----------------------------
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# ----------------------------
+# Power BI Temporary Files
+# ----------------------------
+*.pbix.autosave
+*.tmp.pbix
+
+# ----------------------------
+# SQL Databases
+# ----------------------------
+*.db
+*.sqlite
+*.sqlite3
