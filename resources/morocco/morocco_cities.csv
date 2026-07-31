@@ -1,0 +1,53 @@
+city,region,postal_code,latitude,longitude,weight
+Casablanca,Casablanca-Settat,20000,33.5731,-7.5898,40
+Mohammedia,Casablanca-Settat,28800,33.6861,-7.3829,15
+El Jadida,Casablanca-Settat,24000,33.2316,-8.5007,12
+Settat,Casablanca-Settat,26000,33.0010,-7.6166,10
+Benslimane,Casablanca-Settat,13000,33.6189,-7.1203,8
+Berrechid,Casablanca-Settat,26100,33.2655,-7.5875,8
+Khouribga,Casablanca-Settat,25000,32.8811,-6.9063,7
+
+Rabat,Rabat-Salé-Kénitra,10000,34.0209,-6.8416,35
+Salé,Rabat-Salé-Kénitra,11000,34.0331,-6.7985,25
+Kénitra,Rabat-Salé-Kénitra,14000,34.2610,-6.5802,18
+Témara,Rabat-Salé-Kénitra,12000,33.9287,-6.9066,12
+Sidi Kacem,Rabat-Salé-Kénitra,16000,34.2215,-5.7078,10
+
+Tangier,Tanger-Tétouan-Al Hoceïma,90000,35.7595,-5.8340,35
+Tétouan,Tanger-Tétouan-Al Hoceïma,93000,35.5711,-5.3724,20
+Larache,Tanger-Tétouan-Al Hoceïma,92000,35.1932,-6.1563,12
+Al Hoceïma,Tanger-Tétouan-Al Hoceïma,32000,35.2517,-3.9372,15
+Chefchaouen,Tanger-Tétouan-Al Hoceïma,91000,35.1714,-5.2697,10
+
+Marrakech,Marrakech-Safi,40000,31.6295,-7.9811,35
+Safi,Marrakech-Safi,46000,32.2994,-9.2372,20
+Essaouira,Marrakech-Safi,44000,31.5085,-9.7595,15
+Youssoufia,Marrakech-Safi,46300,32.2463,-8.5294,10
+Kelaat Sraghna,Marrakech-Safi,43000,32.0528,-7.4086,10
+
+Fès,Fès-Meknès,30000,34.0331,-5.0003,35
+Meknès,Fès-Meknès,50000,33.8938,-5.5473,25
+Ifrane,Fès-Meknès,53000,33.5228,-5.1109,10
+Taza,Fès-Meknès,35000,34.2133,-4.0108,15
+Sefrou,Fès-Meknès,31000,33.8319,-4.8280,10
+
+Agadir,Souss-Massa,80000,30.4278,-9.5981,40
+Taroudant,Souss-Massa,83000,30.4703,-8.8760,15
+Tiznit,Souss-Massa,85000,29.6974,-9.7316,15
+Oulad Teima,Souss-Massa,83350,30.3947,-9.2083,10
+
+Oujda,Oriental,60000,34.6814,-1.9086,35
+Nador,Oriental,62000,35.1681,-2.9335,20
+Berkane,Oriental,63300,34.9200,-2.3200,15
+
+Béni Mellal,Béni Mellal-Khénifra,23000,32.3373,-6.3498,30
+Khénifra,Béni Mellal-Khénifra,54000,32.9394,-5.6678,20
+
+Errachidia,Drâa-Tafilalet,52000,31.9314,-4.4247,30
+Ouarzazate,Drâa-Tafilalet,45000,30.9335,-6.9370,20
+
+Guelmim,Guelmim-Oued Noun,81000,28.9870,-10.0574,30
+
+Laâyoune,Laâyoune-Sakia El Hamra,70000,27.1536,-13.2033,30
+
+Dakhla,Dakhla-Oued Ed-Dahab,73000,23.6848,-15.9570,30

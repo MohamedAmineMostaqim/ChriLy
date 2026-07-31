@@ -1,0 +1,6 @@
+original_payment,localized_payment
+credit_card,Bank Card
+boleto,Cash on Delivery
+voucher,Gift Voucher
+debit_card,Bank Transfer
+not_defined,Other
