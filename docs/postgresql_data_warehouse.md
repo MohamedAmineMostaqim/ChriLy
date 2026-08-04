@@ -105,11 +105,8 @@ Tables:
 
 Views:
 
-* vw_sales
-* vw_products
-* vw_customers
-* vw_delivery
-* vw_payments
+- vw_sales (Master Reporting View)
+
 
 ---
 
@@ -298,16 +295,11 @@ These queries validate the warehouse and provide reusable business insights for 
 
 To simplify reporting, several SQL views were created.
 
-Views include:
+Views:
 
-* vw_sales
-* vw_products
-* vw_customers
-* vw_delivery
-* vw_payments
+- vw_sales (Master Reporting View)
 
-These views encapsulate common joins and expose business-friendly datasets for Power BI.
-
+The Power BI dashboard connects primarily to the master reporting view (`vw_sales`), which joins the fact table with all dimension tables into a single business-friendly dataset.
 ---
 
 # Data Quality
