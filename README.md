@@ -71,8 +71,8 @@ Full write-ups for each stage of the pipeline:
 **Machine Learning:** scikit-learn (Logistic Regression, Random Forest), matplotlib, seaborn
 
 ---
+## Repository Structure
 
-## 📁 Repository Structure
 ChriLy/
 │
 ├── data/
@@ -82,7 +82,7 @@ ChriLy/
 │
 ├── notebooks/
 │   ├── 01_Data_Understanding_Profiling&quality.ipynb
-│   ├── 02_moroccanization.ipynb.ipynb
+│   ├── 02_moroccanization.ipynb
 │   ├── 03_cleaning_feature_engineering.ipynb
 │   ├── 04_postgresql_etl.ipynb
 │   └── 05_ML_Delivery_Prediction.ipynb
