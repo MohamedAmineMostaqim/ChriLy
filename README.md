@@ -47,17 +47,37 @@ Raw Olist Data (9 CSVs)
 
 ---
 
+## 🇲🇦 Moroccanization: Before & After
+
+| Dimension | Original Dataset | Localized Dataset |
+|---|---|---|
+| Marketplace | Olist | ChriLy |
+| Country | Brazil | Morocco |
+| Currency | Brazilian Real (BRL) | Moroccan Dirham (MAD) |
+| Timeline | 2016–2018 | 2024–2026 |
+| Customer Geography | Brazilian | Moroccan |
+| Seller Geography | Brazilian | Moroccan |
+| Payment Methods | Brazilian payment methods | Moroccan payment methods |
+| Product Categories | Portuguese | French |
+| Logistics Providers | Brazilian logistics | Moroccan carriers |
+| Shipment Tracking | Not Available | Generated |
+| Customer Phone Numbers | Not Available | Generated (+212) |
+| WhatsApp Confirmation | Not Available | Generated |
+| Cancellation Reasons | Not Available | Generated |
+
+---
+
 ## 📖 Documentation
 
 Full write-ups for each stage of the pipeline:
 
 | Stage | Doc |
 |---|---|
-| Data Quality Audit | [`docs/Data_Understaning_Profiling&Quality.md`](docs/Data_Understaning_Profiling&Quality.md) |
+| Data Quality Audit | [`docs/data-understanding_profiling&quality.md`](docs/data-understanding_profiling&quality.md) |
 | Moroccanization | [`notebooks/02_moroccanization.ipynb`](notebooks/02_moroccanization.ipynb) |
 | Data Cleaning | [`docs/cleaning.md`](docs/cleaning.md) |
-| Feature Engineering | [`docs/Feature_Engineering.md`](docs/Feature_Engineering.md) |
-| PostgreSQL Data Warehouse | [`docs/postgresql_data_warehouse.md`](docs/postgresql_data_warehouse.md) |
+| Feature Engineering | [`docs/feature-engineering.md`](docs/feature-engineering.md) |
+| PostgreSQL Data Warehouse | [`docs/postgresql_datawarehouse.md`](docs/postgresql_datawarehouse.md) |
 | Power BI Dashboards | [`docs/POWER_BI.md`](docs/POWER_BI.md) |
 | Machine Learning | [`docs/ML.md`](docs/ML.md) |
 
@@ -71,8 +91,10 @@ Full write-ups for each stage of the pipeline:
 **Machine Learning:** scikit-learn (Logistic Regression, Random Forest), matplotlib, seaborn
 
 ---
-## Repository Structure
 
+## 📁 Repository Structure
+
+```
 ChriLy/
 │
 ├── data/
@@ -111,8 +133,6 @@ ChriLy/
 │   └── ML.md
 │
 └── README.md
-
-
 ```
 
 ---
@@ -121,9 +141,9 @@ ChriLy/
 
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run notebooks in `notebooks/` in order to reproduce the audit, localization, cleaning, feature engineering, and ML stages
-4. Load cleaned data into PostgreSQL
-5. Open `powerbi/chrily_dashboard.pbix` and point the data source to your local PostgreSQL instance
+3. Run notebooks in `notebooks/` in order (01 → 05) to reproduce the audit, localization, cleaning, feature engineering, and ML stages
+4. Build the PostgreSQL warehouse by running the scripts in `sql/` in order (01 → 07)
+5. Open `power_bi/ChriLy_Dashboard.pbix` and point the data source to your local PostgreSQL instance
 
 ---
 
